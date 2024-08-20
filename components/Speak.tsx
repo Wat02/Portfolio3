@@ -10,10 +10,7 @@ function Speak() {
       <div className="container  m-auto">
         <div className="grid grid-cols-12 gap-1">
           <div className="col-span-12 md:col-span-7">
-            <Link
-              href="https://doctor-guvf720sm-wats-projects-3508e442.vercel.app/"
-              target="_blank"
-            >
+            <Link href="https://doctor-sigma.vercel.app/" target="_blank">
               <Image
                 src={DoctorProject2}
                 width={1000}
@@ -36,7 +33,7 @@ function Speak() {
           </div>
           <div className="col-span-12 md:col-span-7 pt-[30px]">
             <Link
-              href="https://brainwave-hg61sxwou-wats-projects-3508e442.vercel.app/"
+              href="https://brainwave-teal-eight.vercel.app/"
               target="_blank"
             >
               <Image
