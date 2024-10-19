@@ -13,7 +13,7 @@ function Footer() {
         />
       </div>
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw] font-bold text-4xl md:text-5xl text-center text-white">
+        <h1 className="heading lg:max-w-[45vw] font-medium text-4xl md:text-5xl text-center text-white">
           Ready to take <span className="text-purple">your</span> digital
           presence to the next level?
         </h1>
@@ -22,7 +22,10 @@ function Footer() {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
-        <a href="/">
+        <a
+          href="https://www.linkedin.com/in/jovan-jeremic-1252b3286/"
+          target="__blank"
+        >
           <MagicButton
             title="Let's get in touch"
             icon={undefined}
@@ -34,17 +37,11 @@ function Footer() {
         <p className="md:text-base text-sm md:font-normal font-light text-white">
           {" "}
           Copyright © 2024 Jovan Jeremic <br />
-          Made in Belgrade
         </p>
-        <div className="flex items-center md:gap-3 gap-6">
-          {socialMedia.map((info) => (
-            <div
-              key={info.id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-            >
-              <img src={info.img} alt="icons" width={20} height={20} />
-            </div>
-          ))}
+        <div className="flex items-center md:gap-3 gap-6 pt-[20px] md:pt-[0]">
+          <p className="md:text-base text-sm md:font-normal font-light text-white">
+            Made in Belgrade
+          </p>
         </div>
       </div>
     </footer>

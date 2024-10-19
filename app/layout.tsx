@@ -10,8 +10,8 @@ const IBM = IBM_Plex_Mono({
   variable: "--IBM",
 });
 export const metadata: Metadata = {
-  title: "Jovan J.- Front end developer",
-  description: " Welcome to WatFolioDynamic Web Magic with next.js.",
+  title: "Jovan J.- Front End Developer / NextJs Developer",
+  description: " Welcome to WatFolio Dynamic Web Magic with next.js.",
 };
 
 export default function RootLayout({

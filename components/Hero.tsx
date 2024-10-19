@@ -12,7 +12,24 @@ function Hero() {
         <div className="grid grid-cols-12 gap-1">
           <div className="col-span-12">
             <h1 className="text-[3.3em] font-normal	leading-[1.15em]">
-              <FlipWords words={["grüetzi", "hi", "bonjour", "Ahoj"]} /> <br />
+              <FlipWords
+                words={[
+                  "Grüetzi",
+                  "Hi",
+                  "Bonjour",
+                  "Ahoj",
+                  "أهلاً",
+                  "你好",
+                  "こんにちは",
+                  "Здраво",
+                  "Привет",
+                  "Hola",
+                  "Ciao",
+                  "Servus",
+                  "Merhaba",
+                ]}
+              />{" "}
+              <br />
               i'm <br />
               Jovan.
             </h1>
@@ -25,7 +42,7 @@ function Hero() {
               the latest trends and technologies in the industry.
             </p>
             <div className="pt-[40px]">
-              <button className="rounded-[3em] p-[1.1em] leading-[1em] border-2 text-[18px] hover:bg-[#303134] hover:border-[#303134]">
+              <button className="rounded-[3em] p-[1.1em] leading-[1em] border-2 text-[18px] hover:bg-[#303134] hover:border-[#303134] transition-all ease-out hover:text-[#EBE9E3]">
                 Say Hi
               </button>
             </div>
