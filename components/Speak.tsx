@@ -20,7 +20,7 @@ function Speak() {
             <h3 className="text-[2.5em] md:text-[3.3em] font-normal	leading-[1.15em] pt-[20px] md:pt-[0]">
               Horizon- Bankig app
             </h3>
-            <div className="flex pt-[20px]">
+            <div className="flex pt-[20px] pb-[30px]">
               <Link
                 href="https://horizon-five-theta.vercel.app/"
                 target="_blank"

@@ -4,6 +4,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { FlipWords } from "./ui/flip-words";
+import Link from "next/link";
 
 function Hero() {
   return (
@@ -42,9 +43,14 @@ function Hero() {
               the latest trends and technologies in the industry.
             </p>
             <div className="pt-[40px]">
-              <button className="rounded-[3em] p-[1.1em] leading-[1em] border-2 text-[18px] hover:bg-[#303134] hover:border-[#303134] transition-all ease-out hover:text-[#EBE9E3]">
-                Say Hi
-              </button>
+              <Link
+                href="http://linkedin.com/in/jovan-jeremic-1252b3286"
+                target="__blank"
+              >
+                <button className="rounded-[3em] p-[1.1em] leading-[1em] border-2 text-[18px] hover:bg-[#303134] hover:border-[#303134] transition-all ease-out hover:text-[#EBE9E3]">
+                  Say Hi
+                </button>
+              </Link>
             </div>
           </div>
         </div>

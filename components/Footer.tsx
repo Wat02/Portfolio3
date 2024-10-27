@@ -23,7 +23,7 @@ function Footer() {
           achieve your goals.
         </p>
         <a
-          href="https://www.linkedin.com/in/jovan-jeremic-1252b3286/"
+          href="http://linkedin.com/in/jovan-jeremic-1252b3286"
           target="__blank"
         >
           <MagicButton
