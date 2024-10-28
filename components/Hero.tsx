@@ -35,8 +35,8 @@ function Hero() {
               Jovan.
             </h1>
             <p className="pt-[30px] pb-[30px] w-max-[66.6667%] text-[1.0rem] md:text-[1.1rem]">
-              I'm a Front-end Developer working on Next.js projects <br />I am
-              passionate about designing and developing software <br />
+              I'm a Front-end Developer working on Next.js projects, <br />
+              Who is passionate about designing and developing software <br />
               that is both attractive and user-friendly. I always strive <br />
               to achieve the highest quality standards and to keep up with{" "}
               <br />
