@@ -35,13 +35,12 @@ function Hero() {
               i'm <br />
               Jovan
             </h1>
-            <p className="pt-[30px] pb-[30px] w-max-[66.6667%] text-[1.0rem] md:text-[1.1rem]">
-              I'm a Front-end Developer working on Next.js projects, <br />
-              Who is passionate about designing and developing software <br />
-              that is both attractive and user-friendly. I always strive <br />
-              to achieve the highest quality standards and to keep up with{" "}
-              <br />
-              the latest trends and technologies in the industry.
+            <p className="pt-[30px] pb-[30px] w-max-[66.6667%] text-[1.0rem] md:text-[1.1rem] w-[100%] md:w-[60%]">
+              Im a Front-end Developer specializing in Next.js projects,driven
+              by a passion for creating visually appealing and intuitive user
+              experiences. I focus on writing clean, high-quality code while
+              staying current with modern web design trends and emerging
+              front-end technologies.
             </p>
             <div className="pt-[40px]">
               <Link
